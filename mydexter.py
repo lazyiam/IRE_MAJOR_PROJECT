@@ -19,7 +19,7 @@ def getscore(hq):
     return entity_score
 
 allheads = []
-fname = "testhead.txt"
+fname = "head150.txt"
 
 with open(fname) as FF:
     url = "http://localhost:8080/dexter-webapp/api/rest/annotate"
